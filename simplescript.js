@@ -33,7 +33,7 @@ function generatePassword() {
         chars.push("0","1","2","3","4","5","6","7","8","9");
     }
     if (special === true) {
-        chars.push("!", "?", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "_", "=", "`", "~");
+        chars.push('@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_','.');
     }
     // Choosing random characters from array and entering them in the password
     for (var i = 0; i < length; i++) {
